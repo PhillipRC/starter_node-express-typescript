@@ -23,3 +23,4 @@ Either:
 
 ##### `npm run dev` - To start development server on [localhost:8081](http://localhost:8081)
 
+##### `npm run build-docker` - Builds then creates a Docker image
