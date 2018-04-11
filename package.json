@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build-docker": "tsc & docker build -t starter_node-typescript .",
-    "dev": "tsc --watch & nodemon dist"
+    "dev": "tsc --watch & nodemon dist/server.js"
   },
   "author": "",
   "license": "ISC",
