@@ -1,6 +1,6 @@
-import express from 'express';
+import express from 'express'
 
-const app = express();
+const app = express()
 
 app.get('/', function (req, res) {
     res.json({
@@ -8,4 +8,5 @@ app.get('/', function (req, res) {
     })
 });
 
-app.listen(8081);
+console.log('listening to 8081')
+app.listen(8081)
